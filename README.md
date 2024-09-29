@@ -1,12 +1,12 @@
-# Project: The Parking Jam Game
+# Project: Take a Byte 
 
 ## Authors
 
-This project has been implemented by **Iván Moratalla Rivera**,  **David Morilla Sorlí**, **Daniel Pina Rica** and **Fernando Prados Vicente**.
+This project has been implemented by **Iván Moratalla Rivera**,  **Lucía Gutiérrez Sánchez** and **Daniel Pina Rica**.
 
 ## Description
 
-The goal of this project is the development of the Parking Jam game using a Java program. This project uses the model-view-controller (MVC) design pattern. Parking Jam is a sliding blocks puzzle game inspired by Klotski, a classic game from the early 20th century. The objective of the game is to move the vehicles in a parking lot to allow the red car to exit. This README provides an overview of the game's features, installation instructions, and how to play.
+The goal of this project is the development of an Android mobile aplication for a restaurant service. This project was developed using Android Studio IDE. Take a Byte is a mobile app where the user can look for the different dishes that are offered, search for other users reviews, add some reviews about the restaurant and contact with the owners to a more close-contact with the restaurant. This README provides an overview of the app's features.
 
 ## Features
 
