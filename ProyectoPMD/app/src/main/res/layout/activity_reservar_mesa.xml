@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ReservarMesa">
+
+
+
+    <TextView
+        android:id="@+id/textViewPersonas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_numPers"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPersonas"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fecha"
+        android:textSize="16sp"
+        android:layout_below="@id/spinnerPersonas"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFecha"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/HintCalendario"
+        android:inputType="none"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_hora"
+        android:textSize="16sp"
+        android:layout_below="@id/editTextFecha"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHora"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerHora"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#7584D3"
+        android:text="@string/btn_reservar"
+        app:cornerRadius="10dp"
+        app:strokeColor="#3D2071"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReservar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#181F49"
+        android:text="@string/btn_Volver"
+        app:cornerRadius="10dp" />
+
+
+
+</RelativeLayout>

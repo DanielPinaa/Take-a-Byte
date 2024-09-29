@@ -1,0 +1,72 @@
+<!-- activity_main.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resenas">
+
+
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/Hint_Titulo_Res"/>
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTitulo"
+        android:layout_marginTop="8dp"
+        android:hint="@string/Hint_desc"/>
+
+    <EditText
+        android:id="@+id/etNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescripcion"
+        android:layout_marginTop="8dp"
+        android:hint="@string/HInt_val"/>
+
+    <Button
+        android:id="@+id/btnAgregarResena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNota"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7584D3"
+        android:text="@string/btn_AgregarRes"
+        app:cornerRadius="10dp"
+        app:strokeColor="#3D2071"
+        app:strokeWidth="3dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnAgregarResena"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnAgregarResena"
+        android:layout_alignBottom="@+id/btnAgregarResena"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_toEndOf="@+id/btnAgregarResena"
+        android:backgroundTint="#181F49"
+        android:onClick="Volver"
+        android:text="@string/btn_Volver"
+        android:textSize="13sp"
+        app:cornerRadius="10dp" />
+</RelativeLayout>

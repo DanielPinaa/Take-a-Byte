@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personas_array">
+        <item>1 persona</item>
+        <item>2 personas</item>
+        <item>3 personas</item>
+        <item>4 personas</item>
+        <item>5 personas</item>
+        <item>6 personas</item>
+        <item>7 personas</item>
+        <item>8 personas</item>
+        <item>9 personas</item>
+        <item>10 personas</item>
+
+    </string-array>
+
+    <string-array name="horas_array">
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+</resources>

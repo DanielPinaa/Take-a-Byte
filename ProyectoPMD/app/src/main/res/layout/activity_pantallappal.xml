@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaPpal">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_degradado"
+        tools:context=".MainActivity">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7584D3"
+        android:gravity="center"
+        android:onClick="mirarCarta"
+        android:text="@string/btn_mirarCarta"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResenas"
+        app:layout_constraintVertical_bias="0.108"
+        app:strokeColor="#3D2071"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnContactanos"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180sp"
+        android:backgroundTint="#7584D3"
+        android:text="@string/btn_Contact"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReservarMesa"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#3D2071"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnReservarMesa"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7584D3"
+        android:text="@string/btn_Reserva"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.152"
+        app:layout_goneMarginBottom="200dp"
+        app:strokeColor="#3D2071"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#181F49"
+        android:text="@string/btn_logout"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnContactanos"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
+        android:id="@+id/btnResenas"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#7584D3"
+        android:gravity="center"
+        android:text="@string/btn_Resena"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317"
+        app:strokeColor="#3D2071"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/RESTAURANTE"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnResenas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
