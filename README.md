@@ -10,7 +10,7 @@ The goal of this project is the development of an Android mobile aplication for 
 
 ## Features
 
-- **Log in/Log out**: The app includes a "check" option to maintain the user logged.
+- **Log in/Log out**: The app includes a "remember me" option to maintain the user logged.
 - **Look menu**: Background task capable of communicating with an API. It shows the users the different dishes they can order. 
 - **Reviews**: It provides offline navigation thanks to SQLite server. It allows the users to post comments on some topics about the restaurant. Automatic updates from the server within every 10 seconds.
 - **Contact us**: The user can also contact the restaurants owners to a more close-contact communication. Users can also add some multimedia content from the camera or the phone gallery.
