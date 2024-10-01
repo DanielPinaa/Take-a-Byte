@@ -17,10 +17,6 @@ The goal of this project is the development of an Android mobile aplication for 
 - **Make reservation**: Users can make reservations introducing the number of assistants, the date and the hour, when the reservation is done a notification will pop on the user phone.
 - **Multi-Language support**: The app is translated into spanish.
 
-## Log in/Log out
-
-<img src="readmeImages/login.png" width="25%" height="25%">
-
 ## Main menu screen
 
 <img src="readmeImages/Captura de pantalla 2024-09-30 101304.png" width="25%" height="25%">
