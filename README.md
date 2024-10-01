@@ -21,4 +21,9 @@ The goal of this project is the development of an Android mobile aplication for 
 
 <img src="readmeImages/login.png" width="25%" height="25%">
 
+## Main menu screen
+
+<img src="readmeImages/Captura de pantalla 2024-09-30 101304.png" width="25%" height="25%">
+
+
 
