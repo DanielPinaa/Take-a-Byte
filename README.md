@@ -6,7 +6,8 @@ This project has been implemented by **Iván Moratalla Rivera**,  **Lucía Guti�
 
 ## Description
 
-The goal of this project is the development of an Android mobile aplication for a restaurant service. This project was developed using Android Studio IDE. Take a Byte is a mobile app where the user can look for the different dishes that are offered, search for other users reviews, add some reviews about the restaurant and contact with the owners to a more close-contact with the restaurant. This README provides an overview of the app's features.
+The goal of this project is the development of an Android mobile aplication for a restaurant service. This project was developed using Android Studio IDE for Programming for Mobile Devices subject final project. Take a Byte is a mobile app where the user can look for the different dishes that are offered, search for other users reviews, add some reviews about the restaurant and contact with the owners to a more close-contact with the restaurant. Inside **ProyectoPMD** folder is the entire app.
+This README provides an overview of the app's features.
 
 ## Features
 
